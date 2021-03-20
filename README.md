@@ -27,5 +27,13 @@ Asynchronus is achieved by callback and Eventloop.
 
 # About node nvm
 
+# Key Concepts in Nodejs Asynchronous programming
+ ### Asynchronous programming and callbacks
+ ### Timers
+ ### Promises
+ ### Async and Await
+ ### Closures
+ ### The Event Loop
+
 
 
