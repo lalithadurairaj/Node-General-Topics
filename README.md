@@ -14,3 +14,15 @@ rss stands for Resident Set Size, it is the total memory allocated for the proce
 heapTotal is the total size of the allocated heap
 heapUsed is the actual memory used during the execution of our process
 
+# What is Runtime environment
+# How nodejs program run in Google Chrome and other browsers using javascript v8 Engine.
+
+So Node.js does not "work on Firefox" (it doesn't work on Google Chrome either): its a server-side technology. Think of it as a replacement for Python/Ruby/Java in that role. So it can/does respond to requests from all sorts of clients (like Google Chrome and Firefox).
+
+What the "built on V8" means is that it uses the same JavaScript interpreter/just-in-time compiler as Google Chrome. But the similarities with chrome pretty much stop there: Node has no rendering engine/css parser/DOM but does have things you need in a server like an HTTP library and a filesystem API.
+
+https://www.freecodecamp.org/news/understanding-the-core-of-nodejs-the-powerful-chrome-v8-engine-79e7eb8af964/
+
+Asynchronus is achieved by callback and Eventloop.
+
+
